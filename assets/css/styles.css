@@ -86,7 +86,7 @@ footer div a:hover {
 .social a {
     color: white;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 1rem;
     padding: 1rem;
 }
@@ -106,7 +106,7 @@ footer div a:hover {
     border: 5px solid grey;
 }
 
-/* MOD FILES */
+/* MOD */
 
 .disc {
     display: flex;
@@ -125,4 +125,18 @@ footer div a:hover {
 .disc a:hover {
     color: #fff95b;
     transition: all .4s ease-in-out;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+
+    .slider {
+        display: none;
+    }
+
+    .tutorial {
+        display: none;
+    }
+
 }
